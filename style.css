@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+
+html {
+  background: url(./img/Travel\ Time.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 73px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+
+a {
+  color: white;
+}
+h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 96px;
+  color: #fff;
+}
+p {
+  font-family: var(--font-family);
+  font-weight: 275;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 98px;
+}
+.content__text {
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.button__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+.button {
+  border-radius: 8px;
+  width: 191px;
+  height: 60px;
+  box-shadow: 0 0 0 4px #fee4e2, 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  background: #00b43d;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 117%;
+  color: #fff;
+}
